@@ -1,0 +1,20 @@
+.img {
+    width: 62px;
+    height: 62x;
+    margin-right: 30px;
+}
+
+.background {
+    background-image: url(/img/2b8fbbbb61a94815b3c6a0b88ba03deb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 420px){
+
+    .img {
+        display: none;
+    }
+    
+}
